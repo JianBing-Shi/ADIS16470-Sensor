@@ -1,0 +1,85 @@
+# Build output
+Debug/
+Release/
+build/
+cmake-build-*/
+out/
+bin/
+obj/
+Objects/
+Listings/
+*.o
+*.obj
+*.a
+*.lib
+*.elf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+*.su
+*.srec
+*.dis
+
+# Keil MDK / uVision generated files
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/RTE/
+*.uvguix.*
+*.uvoptx
+*.uvopt
+*.uvprojx.bak
+*.uvproj.bak
+*.scvd
+*.crf
+*.htm
+*.lnp
+*.iex
+*.tra
+*.dep
+
+# STM32CubeIDE / Eclipse local metadata
+.metadata/
+.settings/
+.project
+.cproject
+.mxproject.tmp
+*.launch
+
+# VS Code local workspace settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Debugger and programmer artifacts
+*.jlink
+*.jlinklog
+*.svd
+*.stldr
+*.log
+
+# CMake / Ninja
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+build.ninja
+*.ninja
+
+# Python helper caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+Drivers/*
+MDK-ARM/*
